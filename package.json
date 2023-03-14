@@ -1,0 +1,38 @@
+{
+  "name": "remain-fit",
+  "version": "1.0.0",
+  "description": "RemainFit",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsmatheus/remain-fit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gsmatheus/remain-fit/issues"
+  },
+  "homepage": "https://github.com/gsmatheus/remain-fit#readme",
+  "devDependencies": {
+    "@types/node": "18.15.2",
+    "eslint": "8.36.0",
+    "eslint-config-prettier": "8.7.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-simple-import-sort": "10.0.0",
+    "prettier": "2.8.4",
+    "tsup": "6.6.3",
+    "tsx": "3.12.5",
+    "typescript": "4.9.5"
+  },
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "fastify": "4.14.1",
+    "zod": "3.21.4"
+  }
+}
